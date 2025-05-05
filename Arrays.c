@@ -20,8 +20,9 @@ int main() {
     // for(int i = 0; i < size; i++){
     //     printf("The value of %d index is: %d\n", i, marks[i]);
     // }
-    for(int i = size - 1 ; i >= 0; i--){
-        printf("The value of %d index is: %d\n", i, marks[i]);
-    }
+    // for(int i = size - 1 ; i >= 0; i--){
+    //     printf("The value of %d index is: %d\n", i, marks[i]);
+    // }
+
     return 0;
 }
