@@ -27,7 +27,7 @@ int main() {
     // printf("After Swapping Values x: %d y: %d\n", x,y);
 
     // Dynamic Memory Allocation
-    int* ptr = malloc(sizeof(int));
+    int* ptr = malloc(sizeof(float));
     
     if(!ptr){
         printf("Memory Allocation Failed!\n");
