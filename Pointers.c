@@ -6,6 +6,7 @@
 //     *a = *b; //20
 //     *b = temp; //10
 // }
+
 void swap(int a, int b){ //a=10, b=20
     int temp = a; //10
     a = b; //20
