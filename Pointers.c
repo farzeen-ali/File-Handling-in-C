@@ -26,16 +26,5 @@ int main() {
     // swap(&x, &y);
     // // swap(x, y);
     // printf("After Swapping Values x: %d y: %d\n", x,y);
-
-    // Dynamic Memory Allocation
-    int* ptr = malloc(sizeof(float));
-    
-    if(!ptr){
-        printf("Memory Allocation Failed!\n");
-        return 1;
-    }
-    *ptr = 42;
-    printf("Value is: %d\n", *ptr);
-    free(ptr);
     return 0;
 }
